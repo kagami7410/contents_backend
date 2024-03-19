@@ -10,7 +10,7 @@ spec:
     name: {{ .Values.app.name}}-pv-claim
     namespace: {{ .Values.app.namespace}}
   capacity:
-    storage: 20Gi
+    storage: 10Gi
   accessModes:
     - ReadWriteOnce
   local:
