@@ -23,7 +23,7 @@ spec:
           
           volumeMounts:
             - name: futakai-contents
-              mountPath: /app
+              mountPath: /allContents
 
       volumes:
         - name: futakai-contents
