@@ -21,9 +21,9 @@ spec:
         ports:
         - containerPort: {{ .Values.ports.port}}
           
-          volumeMounts:
-            - name: futakai-contents
-              mountPath: /app
+        volumeMounts:
+          - name: futakai-contents
+            mountPath: /app
 
       volumes:
         - name: futakai-contents
