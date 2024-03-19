@@ -1,0 +1,15 @@
+app:
+  name: futakai-contents
+  image:
+    name: sujan7410/futakai-contents
+    tag: test1
+namespace:
+  name: futakai-contents
+
+ports:
+  targetPort: 8000
+  port: 8000
+
+nodes:
+  node1: k8sworker1-virtual-machine
+  node2: k8sworker2-virtual-machine
