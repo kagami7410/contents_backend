@@ -15,7 +15,7 @@ spec:
 
     route:
     - destination:
-        host: futakai-contents-service.futakai-fe.svc.cluster.local
+        host: futakai-contents-service.futakai-contents.svc.cluster.local
         port:
           number:  {{ .Values.ports.port}}
 
