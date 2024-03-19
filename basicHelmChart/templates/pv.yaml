@@ -8,9 +8,9 @@ spec:
   storageClassName: local-storage
   claimRef:
     name: {{ .Values.app.name}}-pv-claim
-    namespace: {{ .Values.app.namespace}}
+    namespace: {{ .Values.namespace.name}}
   capacity:
-    storage: 10Gi
+    storage: 20Gi
   accessModes:
     - ReadWriteOnce
   local:
