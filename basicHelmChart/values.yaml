@@ -2,7 +2,7 @@ app:
   name: futakai-contents
   image:
     name: sujan7410/futakai-contents
-    tag: test2
+    tag: test3
 namespace:
   name: futakai-contents
 

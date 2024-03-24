@@ -14,7 +14,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   local:
-    path: /futakai-contents
+    path: /home/sambauser/SMB_Server/futakai_contents
   nodeAffinity:
     required:
       nodeSelectorTerms:
